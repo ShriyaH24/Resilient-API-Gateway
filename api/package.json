@@ -1,24 +1,28 @@
 {
-  "name": "api",
+  "name": "Resilient-API-Gateway",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShriyaH24/Resilient-API-Gateway.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/ShriyaH24/Resilient-API-Gateway/issues"
+  },
+  "homepage": "https://github.com/ShriyaH24/Resilient-API-Gateway#readme",
   "dependencies": {
-    "@prisma/adapter-pg": "^7.9.1",
     "@prisma/client": "^7.9.1",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "pg": "^8.22.0"
+    "express": "^5.2.1"
   },
   "devDependencies": {
-    "@types/pg": "^8.20.4",
     "nodemon": "^3.1.14",
     "prisma": "^7.9.1"
   }
